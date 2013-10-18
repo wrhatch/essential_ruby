@@ -24,7 +24,7 @@ end
 person1 = Instructor.new
 person1.first_name = "Raghu"
 person1.last_name = "Betina"
-person1.role = "Instructor"
+person1.role = "Lecturer"
 puts person1.inspect
 
 person2 = Student.new
