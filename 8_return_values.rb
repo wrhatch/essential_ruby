@@ -42,7 +42,8 @@ def variance(list_of_numbers)
 
   list_of_squared_differences = []
   list_of_numbers.each do |number|
-    squared_difference = (number - average)**2
+    difference = number - average
+    squared_difference = difference ** 2
     list_of_squared_differences << squared_difference
   end
 
