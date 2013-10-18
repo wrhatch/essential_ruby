@@ -13,8 +13,8 @@
 #   we usually have to do some research on how the task is done:
 #   http://en.wikipedia.org/wiki/Mortgage_calculator
 
-# ==========================================
+# =========================================
 # Your code to define the method goes here.
-# ==========================================
+# =========================================
 
 puts "Your monthly payment will be #{pmt(0.01, 60, 30000)}."
