@@ -21,19 +21,19 @@ class Student < Person
   attr_accessor :grade
 end
 
-p = Instructor.new
-p.first_name = "Raghu"
-p.last_name = "Betina"
-p.role = "Instructor"
-puts p.inspect
+p1 = Instructor.new
+p1.first_name = "Raghu"
+p1.last_name = "Betina"
+p1.role = "Instructor"
+puts p1.inspect
 
-j = Student.new
-j.first_name = "Josh"
-j.last_name = "Elkin"
-j.grade = "A+"
-puts p.inspect
+p2 = Student.new
+p2.first_name = "Brian"
+p2.last_name = "Smith"
+p2.grade = "A+"
+puts p2.inspect
 
-puts p.full_name
-puts j.full_name
-puts p.role
-puts j.grade
+puts p1.full_name
+puts p1.role
+puts p2.full_name
+puts p2.grade
