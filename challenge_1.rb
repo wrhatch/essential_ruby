@@ -17,4 +17,8 @@
 # Your code to define the method goes here.
 # =========================================
 
+def pmt (int_rate, pay_num, princ_amt)
+	return princ_amt / (1/int_rate * (1 - (1/((1+int_rate)**pay_num))))
+end
+
 puts "Your monthly payment will be #{pmt(0.01, 60, 30000)}."
